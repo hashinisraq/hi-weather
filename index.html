@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HI-WEATHER</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        body {
+            background: url(assets/bg-image.jpg) no-repeat;
+            background-size: cover;
+            height: 100vh;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container py-5">
+        <h3 class="text-white text-center">Weather</h3>
+        <form class="col-md-6 m-auto py-3">
+            <div class="input-group mb-3">
+                <input id="input_data" type="text" class="form-control" placeholder="Enter a location for Weather ...">
+                <div class="input-group-append">
+                    <button onclick="weather()" type="button" class="btn btn-info">Search</button>
+                </div>
+            </div>
+        </form>
+        <div class="weather-status text-white text-center">
+            <img src="https://openweathermap.org/img/wn/02d@2x.png" alt="weather">
+            <h1 id="city">Dhaka</h1>
+            <h3>temp <span id="temp">38.06</span>&deg;C</h3>
+            max <span id="max-temp">37.06</span>&deg;C
+            <h1 id="condition" class="lead"><b>Clouds</b></h1>
+        </div>
+    </div>
+    <script src="./script/main.js"></script>
+</body>
+
+</html>
