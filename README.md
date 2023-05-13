@@ -1,8 +1,8 @@
-# HI_BLOG
+# HI-WEATHER
 
 The site can be found at the following addresses 🌐:
 
-- Main: <https://blog-hi.netlify.app>
+- Main: <https://hashinisraq.github.io/hi-weather>
 
 ## Pre-requisites
 
@@ -13,7 +13,7 @@ The site can be found at the following addresses 🌐:
 You must first clone the repository. To do so, first open your console and type:
 
 ```bash
-git clone https://github.com/hashinisraq/hi-blog-ui.git
+git clone https://github.com/hashinisraq/hi-weather.git
 ```
 
 Then open the index.html file and enjoy the application
